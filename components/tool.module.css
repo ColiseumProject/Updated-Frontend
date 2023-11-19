@@ -1,0 +1,53 @@
+.toolTipChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.4), rgba(40, 39, 41, 0.4));
+    backdrop-filter: blur(46px);
+    width: 430px;
+    height: 232px;
+}
+.loremIpsumDolor1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 4%;
+    position: relative;
+    z-index: 999;
+}
+.toolTip {
+    position: absolute !important;
+    top: 50vh;
+    left: 50%;
+  transform: translate(-50%, -50%);
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    overflow: hidden;
+    text-align: left;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Neue Montreal';
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.4), rgba(40, 39, 41, 0.4));
+    backdrop-filter: blur(46px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 4%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .toolTip{
+        width: 90%;
+        padding: 5% 4%;
+    }
+  }
+
