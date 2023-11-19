@@ -75,7 +75,7 @@ export default function App({ Component, pageProps }: AppProps) {
                     paperWallet({
                       paperClientId: "5c742869-9a15-4769-b511-06d55362a349",
                     }),
-                  
+                   
                   ]}
                 >
                   {mounted && <Component {...pageProps} />}

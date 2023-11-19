@@ -182,8 +182,8 @@ const HomepageStake: NextPage = () => {
 
           <Image className={styles.unionIcon3} alt="" src={Star} />
 
-          <div style={myFont.style} className={styles.stakingBenefits}>
-            <Image src={Stakingben} alt="" />
+          <div style={thirdFont.style} className={styles.stakingBenefits}>
+            <h5 className="text-6xl text-[#FFE500]">Staking Benefits</h5>
           </div>
           <div className={styles.homepageStakeChild4} />
 
@@ -231,7 +231,7 @@ const HomepageStake: NextPage = () => {
           </div>
 
           <div style={thirdFont.style} className={styles.stakingPool}>
-            <Image src={Stakingpol} alt="" />
+          <h5 className="text-6xl text-[#FFE500]">Staking Pool</h5>
           </div>
           <div className={styles.frameParent1}>
             <div className={styles.gWrapper}>

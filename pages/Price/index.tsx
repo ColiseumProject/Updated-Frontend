@@ -123,20 +123,20 @@ export default function PriceView({
         <div className={styles.property1swap}>
           <div className={styles.mingcutewallet4FillParent}></div>
           <div className={styles.property1swapItem} />
-          <div style={secondFont.style} className={`${styles.youPay}`}>
-            <h5 className="monument text-xl text-white">You Pay:</h5>
+          <div style={myFont.style} className={`${styles.youPay}`}>
+            <h5 className="text-xl text-white">You Pay:</h5>
           </div>
-          <div style={secondFont.style} className={styles.youReceive}>
-            <h5 className="monument text-xl text-white">You Recieve:</h5>
+          <div style={myFont.style} className={styles.youReceive}>
+            <h5 className="text-xl text-white">You Recieve:</h5>
           </div>
-          <div style={secondFont.style} className={`${styles.balance323400}`}>
-            <h5 className="monument text-xl text-white">Balance $0</h5>
+          <div style={myFont.style} className={`${styles.balance323400}`}>
+            <h5 className=" text-xl text-white">Balance $0</h5>
           </div>
-          <div style={secondFont.style} className={styles.div}>
-            <h5 className="monument text-sm text-gray-500">= $23.00.00</h5>
+          <div style={myFont.style} className={styles.div}>
+            <h5 className=" text-sm text-gray-500">= $23.00.00</h5>
           </div>
-          <div style={secondFont.style} className={styles.div1}>
-          <h5 className="monument text-sm text-gray-500">= $13.00.00</h5>
+          <div style={myFont.style} className={styles.div1}>
+          <h5 className=" text-sm text-gray-500">= $13.00.00</h5>
           </div>
 
           <div className={styles.frameDiv} />
@@ -249,7 +249,7 @@ export default function PriceView({
             <Image className={styles.riarrowUpSLineIcon2} alt="" src={Arrow} />
           </div>
           <div className={styles.ter033Wrapper}>
-            <div style={{ fontFamily: "Inter" }} className={styles.ter033}>
+            <div style={secondFont.style} className={styles.ter033}>
               TER → 0.33%
             </div>
           </div>

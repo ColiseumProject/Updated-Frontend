@@ -289,7 +289,8 @@ const HomepageBlack: NextPage = () => {
               width: localStorage.getItem("lang") == "es" ? "90%" : "66%",
             }}
           >
-            {t("discoverparagraph")}
+            <span style={secondFont.style}>{t("discoverparagraph")}</span>
+            
           </h5>
           <div className="w-full h-fit grid grid-cols-3 grid-rows-2 gap-3">
             {discoverItem.map((item, index) => {
